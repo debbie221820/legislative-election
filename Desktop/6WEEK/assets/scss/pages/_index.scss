@@ -1,0 +1,81 @@
+// .index-title {
+//   font-size: 100px;
+// }
+
+body {
+  font-size: 16px; line-height: 23px;
+  //  font-family: 'Bruno Ace SC', cursive;
+//   font-family: "Noto Serif TC", "Bruno Ace SC";
+//   font-weight: 400;
+}
+
+// p {
+  // font-family: "Noto Serif TC", "Bruno Ace SC";
+  // font-weight: 400;
+  // margin: 0;
+// }
+// h1,
+// .ff {
+//   font-family: "Yeseva One","Noto Serif TC";
+//   font-weight: 700;
+// }
+// h2,
+// h4,
+// h5 {
+//   font-family: "Noto Serif TC";
+//   font-weight: 700;
+// }
+
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 1s;
+}
+
+// font-family: 'Bruno Ace SC', cursive;--黑體字英文字型
+// font-family: 'Noto Serif TC', serif; -----中文楷體
+// font-family: 'Yeseva One', cursive;-----英文字型
+
+
+@media (max-width:767px) {
+  .date{ padding-top:30px ;display: flex;flex-grow: 4;
+  .date-year {width: 30%;
+  }
+  .flex-column{display: none;} 
+}
+ .date-date{width:70%;display: flex; flex-direction:row ;
+  margin-bottom:10px;
+  padding: 0 30px 0 30px;
+
+.slash{margin-top:0px;margin-bottom:0px;}}
+  }
+// @media (max-width: 575px) {
+//   img.slide {
+//     width: 351px;
+//   }
+// }
+// @media (max-width: 575px) {
+//   .menu.row  {width: 300px;
+//     display: block;display: flex; flex-direction: row;
+//     flex-wrap: wrap;
+//     padding: 0;
+//     .menu.col { width: 100px;
+//       .menu card {display: block;
+//         width: 80px;
+//       }
+//       img {
+//         width: 40px;
+//       }
+//     }
+//   }
+// }
+
+//  <div class="row     wrap-wrap g-2 d-flex">
+//  <div class=" col-lg-2  col-sm-4 col-xs-4">
+//    <div class="card p-0 justify-content-center align-items-center
+//    border boreder-3 border-dark " style="max-width: 199px;">
+//      <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/cate01.svg?raw=true"
+//        class="card-img-top mx-1  mt-4" alt="..." style="width: 80px;">
+//      <div class="card-body p-0">
+//        <h4 class="card-text mb-4">演出</h4>
+//      </div>
+//    </div>
+//  </div>
