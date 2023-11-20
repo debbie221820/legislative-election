@@ -5,14 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about</title>
-    <script type="module" crossorigin src="/web-layout-training-vite/assets/main-71c30259.js"></script>
-    <link rel="stylesheet" href="/web-layout-training-vite/assets/main-accf464b.css">
+    <script type="module" crossorigin src="/legislative-election/assets/main-77298cbc.js"></script>
+    <link rel="stylesheet" href="/legislative-election/assets/main-3347129b.css">
   </head>
   <body>
-    <h1 class="header">我是 header</h1>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+  <div class="container d-flex justify-content-md-between">
+
+    <a class="navbar-brand  " href="#">
+      <img class="Cat-logo" src="/legislative-election/assets/Logo-d96fb748.png" alt="">
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-md-row-reverse" id="navbarNavDropdown">
+      <ul class="navbar-nav ">
+        <li class="nav-item d-flex  align-items-center align-content-center  justify-content-center ">
+          <img  class=" item-display  " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALQSURBVHgBtVjhldowDHb6+r9sUN8EZYNmg2MD0gkuG8AGxwZhA9oJwk0AncB0grCBar0oIBTJSYD73hPh2bL8RZJlx5mbCADI4+NHFHzOo8xIEOcoxyinKPsoH1mWndyzEUnMoqyiHGA6KnqJp5EpojTGZNgeiOiB/lvYRfHuXpBXasUwtr1ZxmlcHmVrECzdVOBkirH6HteTh6Wt1RQDkkwDD+YAeW0jSFVjBkoyAR6Je99+OclTFPdPIcPmKASpxRhFkwy53w9MmtQRnsKUmGlKgSktjUlqprMzJlvAtUwEywPC1lp2cu9UhoEt9JErerJ4Npq3oM3XRvWS8I43CGl4VfSColcaNjc9L8U/c9ZYOwPQr9bB0CsVQktDN+/NLQwsE4RKRqqGdNKu+USgJe1Vl4d4hg071jB3A0gZv0dXhO31a2zzXWc8KhyHDESdszKp18ZLXQN8zIsbygkLFP8aRF5FeZ/oRZ5HG9dLqlvFNeg1aQVpBBA5Bm0deyOb3iBUqR6CfnkvE30WDoIQr2O4OOYWoaAQCsJ4qi+FJfOORK0QWn9x7TkY4eG6B3kRpTMNXih9KRSJPk9PvrLPSOgva5jToVyujj/K4DHw+EOrbS/6TvT8ydqOMic22Aq3xXLbaYNehVPgoeZnLZ5Dl/2sU+TxbZgBbL9ZviLeY/BbeKUjNqP/+qYOt/XE3D4U3SH4AVt823i13jxAeu9Bz+ESxi3nUlOovaB2lHyAzM2B0A28+bv7RED/7L60lJqk0vMI8VBVKUW5ip5OCtpPa54efmiA/H4a/1GXtivP5JelP2bwVpCq4IFPImgP/kGQWUw1soY+JhED+4hieiYbMFjEB4bMiy48VH24611QBywX3127xSzc9d6owz7Kr4fujKBdfRt4DLiqcvdMELECxlfqBu64rMrcHYC2kmNY8GrvJco36vrn2hAex5zPNfwHTH2uYxwW4mwAAAAASUVORK5CYII=" alt="" style="height: 35.6px;">         
+           <img class=" item-none" src="data:image/png;base64,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" alt="" >
+          <a class="nav-link active " aria-current="page" href="index.html">
+            <h4 class="align-middle m-0  ps-1">最新活動</h4>
+          </a>
+        </li>
+        <li class="nav-item d-flex align-items-center align-content-center   justify-content-center ">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALQSURBVHgBtVjhldowDHb6+r9sUN8EZYNmg2MD0gkuG8AGxwZhA9oJwk0AncB0grCBar0oIBTJSYD73hPh2bL8RZJlx5mbCADI4+NHFHzOo8xIEOcoxyinKPsoH1mWndyzEUnMoqyiHGA6KnqJp5EpojTGZNgeiOiB/lvYRfHuXpBXasUwtr1ZxmlcHmVrECzdVOBkirH6HteTh6Wt1RQDkkwDD+YAeW0jSFVjBkoyAR6Je99+OclTFPdPIcPmKASpxRhFkwy53w9MmtQRnsKUmGlKgSktjUlqprMzJlvAtUwEywPC1lp2cu9UhoEt9JErerJ4Npq3oM3XRvWS8I43CGl4VfSColcaNjc9L8U/c9ZYOwPQr9bB0CsVQktDN+/NLQwsE4RKRqqGdNKu+USgJe1Vl4d4hg071jB3A0gZv0dXhO31a2zzXWc8KhyHDESdszKp18ZLXQN8zIsbygkLFP8aRF5FeZ/oRZ5HG9dLqlvFNeg1aQVpBBA5Bm0deyOb3iBUqR6CfnkvE30WDoIQr2O4OOYWoaAQCsJ4qi+FJfOORK0QWn9x7TkY4eG6B3kRpTMNXih9KRSJPk9PvrLPSOgva5jToVyujj/K4DHw+EOrbS/6TvT8ydqOMic22Aq3xXLbaYNehVPgoeZnLZ5Dl/2sU+TxbZgBbL9ZviLeY/BbeKUjNqP/+qYOt/XE3D4U3SH4AVt823i13jxAeu9Bz+ESxi3nUlOovaB2lHyAzM2B0A28+bv7RED/7L60lJqk0vMI8VBVKUW5ip5OCtpPa54efmiA/H4a/1GXtivP5JelP2bwVpCq4IFPImgP/kGQWUw1soY+JhED+4hieiYbMFjEB4bMiy48VH24611QBywX3127xSzc9d6owz7Kr4fujKBdfRt4DLiqcvdMELECxlfqBu64rMrcHYC2kmNY8GrvJco36vrn2hAex5zPNfwHTH2uYxwW4mwAAAAASUVORK5CYII=" alt="" style="height: 35.6px;">
+          <a class="nav-link " href="subject.html">
+            <h4 class="align-middle m-0 ps-1"> 政策議題</h4>
+          </a>
+        </li>
+        <li class="nav-item d-flex align-items-center align-content-center   justify-content-center ">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALQSURBVHgBtVjhldowDHb6+r9sUN8EZYNmg2MD0gkuG8AGxwZhA9oJwk0AncB0grCBar0oIBTJSYD73hPh2bL8RZJlx5mbCADI4+NHFHzOo8xIEOcoxyinKPsoH1mWndyzEUnMoqyiHGA6KnqJp5EpojTGZNgeiOiB/lvYRfHuXpBXasUwtr1ZxmlcHmVrECzdVOBkirH6HteTh6Wt1RQDkkwDD+YAeW0jSFVjBkoyAR6Je99+OclTFPdPIcPmKASpxRhFkwy53w9MmtQRnsKUmGlKgSktjUlqprMzJlvAtUwEywPC1lp2cu9UhoEt9JErerJ4Npq3oM3XRvWS8I43CGl4VfSColcaNjc9L8U/c9ZYOwPQr9bB0CsVQktDN+/NLQwsE4RKRqqGdNKu+USgJe1Vl4d4hg071jB3A0gZv0dXhO31a2zzXWc8KhyHDESdszKp18ZLXQN8zIsbygkLFP8aRF5FeZ/oRZ5HG9dLqlvFNeg1aQVpBBA5Bm0deyOb3iBUqR6CfnkvE30WDoIQr2O4OOYWoaAQCsJ4qi+FJfOORK0QWn9x7TkY4eG6B3kRpTMNXih9KRSJPk9PvrLPSOgva5jToVyujj/K4DHw+EOrbS/6TvT8ydqOMic22Aq3xXLbaYNehVPgoeZnLZ5Dl/2sU+TxbZgBbL9ZviLeY/BbeKUjNqP/+qYOt/XE3D4U3SH4AVt823i13jxAeu9Bz+ESxi3nUlOovaB2lHyAzM2B0A28+bv7RED/7L60lJqk0vMI8VBVKUW5ip5OCtpPa54efmiA/H4a/1GXtivP5JelP2bwVpCq4IFPImgP/kGQWUw1soY+JhED+4hieiYbMFjEB4bMiy48VH24611QBywX3127xSzc9d6owz7Kr4fujKBdfRt4DLiqcvdMELECxlfqBu64rMrcHYC2kmNY8GrvJco36vrn2hAex5zPNfwHTH2uYxwW4mwAAAAASUVORK5CYII=" alt="" style="height: 35.6px;">
+          <a class="nav-link " href="#">
+            <h4 class="align-middle m-0  ps-1"> 小額捐款</h4>
+          </a>
+        </li>
+        <li class="nav-item d-flex  align-items-center align-content-center   justify-content-center ">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALQSURBVHgBtVjhldowDHb6+r9sUN8EZYNmg2MD0gkuG8AGxwZhA9oJwk0AncB0grCBar0oIBTJSYD73hPh2bL8RZJlx5mbCADI4+NHFHzOo8xIEOcoxyinKPsoH1mWndyzEUnMoqyiHGA6KnqJp5EpojTGZNgeiOiB/lvYRfHuXpBXasUwtr1ZxmlcHmVrECzdVOBkirH6HteTh6Wt1RQDkkwDD+YAeW0jSFVjBkoyAR6Je99+OclTFPdPIcPmKASpxRhFkwy53w9MmtQRnsKUmGlKgSktjUlqprMzJlvAtUwEywPC1lp2cu9UhoEt9JErerJ4Npq3oM3XRvWS8I43CGl4VfSColcaNjc9L8U/c9ZYOwPQr9bB0CsVQktDN+/NLQwsE4RKRqqGdNKu+USgJe1Vl4d4hg071jB3A0gZv0dXhO31a2zzXWc8KhyHDESdszKp18ZLXQN8zIsbygkLFP8aRF5FeZ/oRZ5HG9dLqlvFNeg1aQVpBBA5Bm0deyOb3iBUqR6CfnkvE30WDoIQr2O4OOYWoaAQCsJ4qi+FJfOORK0QWn9x7TkY4eG6B3kRpTMNXih9KRSJPk9PvrLPSOgva5jToVyujj/K4DHw+EOrbS/6TvT8ydqOMic22Aq3xXLbaYNehVPgoeZnLZ5Dl/2sU+TxbZgBbL9ZviLeY/BbeKUjNqP/+qYOt/XE3D4U3SH4AVt823i13jxAeu9Bz+ESxi3nUlOovaB2lHyAzM2B0A28+bv7RED/7L60lJqk0vMI8VBVKUW5ip5OCtpPa54efmiA/H4a/1GXtivP5JelP2bwVpCq4IFPImgP/kGQWUw1soY+JhED+4hieiYbMFjEB4bMiy48VH24611QBywX3127xSzc9d6owz7Kr4fujKBdfRt4DLiqcvdMELECxlfqBu64rMrcHYC2kmNY8GrvJco36vrn2hAex5zPNfwHTH2uYxwW4mwAAAAASUVORK5CYII=" alt="" style="height: 35.6px;">
+          <a class="nav-link " href="#">
+            <h4 class="align-middle m-0  ps-1">服務信箱</h4>
+          </a>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+<!-- <h1 class="header">我是 header</h1>
 <a href="index.html">index</a>
 <a href="about.html">about</a>
-<a href="contact.html">contact</a>    <h1>我是about</h1>
+<a href="contact.html">contact</a> -->    <h1>我是about</h1>
     <footer class="footer">我是 footer</footer>
     
   </body>
