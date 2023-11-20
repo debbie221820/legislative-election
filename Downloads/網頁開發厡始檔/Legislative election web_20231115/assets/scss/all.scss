@@ -9,3 +9,33 @@
 @import './pages/index.scss';
 
 @import "../../node_modules/bootstrap";
+
+@import "./pages/index.scss";
+@import "../../node_modules/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Noto+Sans&family=Noto+Sans+HK:wght@400;700&display=swap");
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1440px;
+  margin-top: 32px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.cat2{position: absolute;top:50%;left:25% ;max-width:75%;transform: translate(0%,-50%);}
+@media (max-width: 991.98px) {
+
+// .introduction-page{display: flex ;}
+}
+
